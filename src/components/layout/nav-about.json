@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_nav_abouts",
+  "info": {
+    "displayName": "navAbout",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "navHead": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_nav_news",
+  "info": {
+    "displayName": "navNews",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "navHead": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_nav_items",
+  "info": {
+    "displayName": "navItem",
+    "icon": "location-arrow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "itemHead": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "subItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

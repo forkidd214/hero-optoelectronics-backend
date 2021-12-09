@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hero_carousels",
+  "info": {
+    "singularName": "hero-carousel",
+    "pluralName": "hero-carousels",
+    "displayName": "hero-carousel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "required": true
+    }
+  }
+}
