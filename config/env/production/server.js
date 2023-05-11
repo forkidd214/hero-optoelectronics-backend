@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-  url: env("HOST"),
+  url: env("RAILWAY_STATIC_URL"),
 });
