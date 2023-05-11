@@ -117,3 +117,4 @@ build
 # Railway Deployment
 ############################
 .env.production
+package-lock.json
