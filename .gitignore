@@ -113,10 +113,7 @@ exports
 build
 .strapi-updater.json
 
-
 ############################
-# Heroku
+# Railway Deployment
 ############################
-
-package-lock.json
-
+.env.production
